@@ -1,0 +1,42 @@
+*{
+    border: 1px solid brown;
+    margin: 10px;
+}
+h1{
+    background-color: brown;
+}
+body{
+    background-color: orange;
+}
+div:hover{
+    background-color: brown;
+    p:hover{
+        color: white;
+    }
+}
+p:hover{
+    text-transform: uppercase;
+    background-color: brown;
+}
+
+#paragraph, h1{
+    color: white;
+}
+button{
+    font-size: smaller;
+}
+button:hover{
+    font-size: large;
+}
+a{
+    display: block;
+}
+p{
+    font-size: x-large;
+}
+img{
+    opacity: 0.6;
+}
+img:hover{
+    opacity: 1.0;
+}
